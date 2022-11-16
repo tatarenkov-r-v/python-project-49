@@ -272,4 +272,71 @@ no changes added to commit (use "git add" and/or "git commit -a")
  7 files changed, 217 insertions(+), 4 deletions(-)
  create mode 100644 brain_games/__pycache__/cli.cpython-310.pyc
  create mode 100644 brain_games/cli.py
-[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004h
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hmmake build[?1l>[?2004l
+]2;make build]1;makepoetry build
+Building [36mpython-project-49[39m ([39;1m0.1.0[39;22m)
+  - Building [34msdist[39m
+  - Built [32mpython_project_49-0.1.0.tar.gz[39m
+  - Building [34mwheel[39m
+  - Built [32mpython_project_49-0.1.0-py3-none-any.whl[39m
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   brain_games/typescript[m
+	[31mmodified:   dist/python_project_49-0.1.0-py3-none-any.whl[m
+	[31mmodified:   dist/python_project_49-0.1.0.tar.gz[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[33m+[35m][39m [00m[K[?1h=[?2004hggit commit - m 'new version'[?1l>[?2004l
+]2;git commit - m 'new version']1;giterror: pathspec '-' did not match any file(s) known to git
+error: pathspec 'm' did not match any file(s) known to git
+error: pathspec 'new version' did not match any file(s) known to git
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[33m+[31m*[35m][39m [00m[K[?1h=[?2004hgit commit - m 'new version'[P[15C [16D[?1l>[?2004l
+]2;git commit -m 'new version']1;git[main 46e7ac4] new version
+ 3 files changed, 25 insertions(+)
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit push[?1l>[?2004l
+]2;git push]1;gitEnumerating objects: 32, done.
+Counting objects:   3% (1/32)Counting objects:   6% (2/32)Counting objects:   9% (3/32)Counting objects:  12% (4/32)Counting objects:  15% (5/32)Counting objects:  18% (6/32)Counting objects:  21% (7/32)Counting objects:  25% (8/32)Counting objects:  28% (9/32)Counting objects:  31% (10/32)Counting objects:  34% (11/32)Counting objects:  37% (12/32)Counting objects:  40% (13/32)Counting objects:  43% (14/32)Counting objects:  46% (15/32)Counting objects:  50% (16/32)Counting objects:  53% (17/32)Counting objects:  56% (18/32)Counting objects:  59% (19/32)Counting objects:  62% (20/32)Counting objects:  65% (21/32)Counting objects:  68% (22/32)Counting objects:  71% (23/32)Counting objects:  75% (24/32)Counting objects:  78% (25/32)Counting objects:  81% (26/32)Counting objects:  84% (27/32)Counting objects:  87% (28/32)Counting objects:  90% (29/32)Counting objects:  93% (30/32)Counting objects:  96% (31/32)Counting objects: 100% (32/32)Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects:   5% (1/20)Compressing objects:  10% (2/20)Compressing objects:  15% (3/20)Compressing objects:  20% (4/20)Compressing objects:  25% (5/20)Compressing objects:  30% (6/20)Compressing objects:  35% (7/20)Compressing objects:  40% (8/20)Compressing objects:  45% (9/20)Compressing objects:  50% (10/20)Compressing objects:  55% (11/20)Compressing objects:  60% (12/20)Compressing objects:  65% (13/20)Compressing objects:  70% (14/20)Compressing objects:  75% (15/20)Compressing objects:  80% (16/20)Compressing objects:  85% (17/20)Compressing objects:  90% (18/20)Compressing objects:  95% (19/20)Compressing objects: 100% (20/20)Compressing objects: 100% (20/20), done.
+Writing objects:   5% (1/20)Writing objects:  10% (2/20)Writing objects:  15% (3/20)Writing objects:  20% (4/20)Writing objects:  25% (5/20)Writing objects:  30% (6/20)Writing objects:  35% (7/20)Writing objects:  40% (8/20)Writing objects:  45% (9/20)Writing objects:  50% (10/20)Writing objects:  55% (11/20)Writing objects:  60% (12/20)Writing objects:  65% (13/20)Writing objects:  70% (14/20)Writing objects:  75% (15/20)Writing objects:  80% (16/20)Writing objects:  85% (17/20)Writing objects:  90% (18/20)Writing objects:  95% (19/20)Writing objects: 100% (20/20)Writing objects: 100% (20/20), 26.24 KiB | 8.75 MiB/s, done.
+Total 20 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/5)[Kremote: Resolving deltas:  20% (1/5)[Kremote: Resolving deltas:  40% (2/5)[Kremote: Resolving deltas:  60% (3/5)[Kremote: Resolving deltas:  80% (4/5)[Kremote: Resolving deltas: 100% (5/5)[Kremote: Resolving deltas: 100% (5/5), completed with 2 local objects.[K
+remote: no repo id givem
+To github.com:tatarenkov-r-v/python-project-49.git
+   f96c77f..46e7ac4  main -> main
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hlls[?1l>[?2004l
+]2;ls -G]1;lsMakefile       README.md      [1m[36mbrain_games[39;49m[0m    [1m[36mdist[39;49m[0m           poetry.lock    pyproject.toml
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit status[?1l>[?2004l
+]2;git status]1;gitOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   brain_games/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hnnano rREADME.md[1m [0m[0m [?1l>[?2004l
+]2;nano README.md]1;nano[?1049h[1;55r(B[m[4l[?7h[?12l[?25h[?1h=[?1h=[?1h=[39;49m[39;49m(B[m[H[2J(B[0;7m  GNU nano 2.0.6                   File: README.md                                            [3;1H(B[m### Hexlet tests and linter status:[4d[![Actions Status](https://github.com/tatarenkov-r-v/python-project-49/workflows/hexlet-check$[53;40H(B[0;7m[ Read 2 lines ][54d^G(B[m Get Help    (B[0;7m^O(B[m WriteOut    (B[0;7m^R(B[m Read File   (B[0;7m^Y(B[m Prev Page   (B[0;7m^K(B[m Cut Text    (B[0;7m^C(B[m Cur Pos[55d(B[0;7m^X(B[m Exit[55;16H(B[0;7m^J(B[m Justify     (B[0;7m^W(B[m Where Is    (B[0;7m^V(B[m Next Page   (B[0;7m^U(B[m UnCut Text  (B[0;7m^T(B[m To Spell[3d[4d[5d[1;85H(B[0;7mModified[6d(B[m[53d[K[6d$y" /></a>   ><img src="https://api.codeclimate.com/v1/badges/6dc7d84679b910c8758b/maintainability" />                                                                                   <a href="https://codeclimate.com/github/tatarenkov-r-v/python-project-49/maintainability"><i                                                                                          [K$y" /></a><a href="https://codeclimate.com/github/tatarenkov-r-v/python-project-49/maintainability"><im$[7;1H[53d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                  [54;1H Y(B[m Yes[K[55d(B[0;7m N(B[m No  [55;16H (B[0;7m^C(B[m Cancel[K[53;62H(B[0;7mFile Name to Write: README.md                               [54d^G(B[m Get Help[54;24H(B[0;7m^T(B[m To Files[54;47H(B[0;7mM-M(B[m Mac Format[54;70H(B[0;7mM-P(B[m Prepend[55d(B[0;7m^C(B[m Cancel[17G       (B[0;7mM-D(B[m DOS Format[55;47H(B[0;7mM-A(B[m Append[55;70H(B[0;7mM-B(B[m Backup File[53;30H[54d[39;49m(B[m[J[1;85H(B[0;7m        [53;38H(B[m[1K (B[0;7m[ Wrote 4 lines ](B[m[K[55;94H[55;1H[?1049l[?1l>[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit add REAM DME.md[?1l>[?2004l
+]2;git add README.md]1;git[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[33m+[31m*[35m][39m [00m[K[?1h=[?2004hggit commit -m 'u add codeclimat badges'[?1l>[?2004l
+]2;git commit -m 'add codeclimat badges']1;git[main 812390a] add codeclimat badges
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hgit commit -m 'add codeclimat badges'[33Dadd README.md                    [20D[17Dnano[3P[10C   [14Dgit status    [?1l>[?2004l
+]2;git status]1;gitOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   brain_games/typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit
