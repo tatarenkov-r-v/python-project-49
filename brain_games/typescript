@@ -247,4 +247,29 @@ Hello, Jon!
 Welcome to the Brain Games!
 [1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit pusg h[?1l>[?2004l
 ]2;git push]1;gitEverything up-to-date
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit stati us[?1l>[?2004l
+]2;git status]1;gitOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   brain_games/scripts/__pycache__/brain_games.cpython-310.pyc[m
+	[31mmodified:   brain_games/scripts/brain_games.py[m
+	[31mmodified:   brain_games/typescript[m
+	[31mmodified:   poetry.lock[m
+	[31mmodified:   pyproject.toml[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mbrain_games/__pycache__/cli.cpython-310.pyc[m
+	[31mbrain_games/cli.py[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004hggit add .[?1l>[?2004l
+]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[33m+[35m][39m [00m[K[?1h=[?2004hggit commit -m 'add Name reame re name re[1C[1C[1C[1C[1C[1Cquest[1C[1Cpname request[12Drname request[12Doname request[12Dmname request[12Dpname request[12Dtname request[12D.name request[12D name request[12D[1C[1Caname request[12Ddname request[12Ddname request[12D name request[12D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C'[?1l>[?2004l
+]2;git commit -m 'add prompt. add name request']1;git[main e5a5e0e] add prompt. add name request
+ 7 files changed, 217 insertions(+), 4 deletions(-)
+ create mode 100644 brain_games/__pycache__/cli.cpython-310.pyc
+ create mode 100644 brain_games/cli.py
 [1m[7m%[27m[1m[0m                                                                                              ]2;roman@MBP-Roman:~/python-project-49]1;..on-project-49[0m[27m[24m[J[35m[00m ~/python-project-49/ [00m[35m[[32mmain[31m*[35m][39m [00m[K[?1h=[?2004h
