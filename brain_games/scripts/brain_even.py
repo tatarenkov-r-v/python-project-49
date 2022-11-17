@@ -1,10 +1,9 @@
-from brain_games.cli import welcome_user
+
+from brain_games.scripts.brain_games import welcome
 
 from random import randint
 
-print("Welcome to the Brain Games!")
-
-welcome_user()
+welcome()
 
 def main():
     print('Answer "yes" if the number is even, otherwise answer "no".')
