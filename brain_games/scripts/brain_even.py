@@ -9,8 +9,8 @@ def main():
     name = prompt.string('May I have your name?')
     print(f'Hello, {name}!')
     print('Answer "yes" if the number is even, otherwise answer "no".')
-    i = 1
-    while i <= 3:
+    i = 0
+    while i < 3:
         question = randint(1, 100)
         print(f'Questions: {question}')
         user_answer = input('Your answer:')
