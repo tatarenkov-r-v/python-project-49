@@ -8,3 +8,6 @@ https://asciinema.org/connect/c4f303d3-deba-4121-b0ba-2b68307e70ba
 
 Brain-calc demonstration:
 https://asciinema.org/a/aCTPiRAfVmojJJTbHnDOZlGvs
+
+Brain-gcd demonstration:
+https://asciinema.org/a/jKSlQtW7c7VeHfmGbwE4yHk5H
