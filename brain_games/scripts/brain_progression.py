@@ -7,7 +7,6 @@ from random import choice
 import prompt
 
 
-
 subtext = 'What number is missing in the progression?'
 
 
