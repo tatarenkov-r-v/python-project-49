@@ -1,4 +1,7 @@
-import random
+from random import randint
+
+
+from random import choice
 
 
 import prompt
@@ -11,9 +14,9 @@ def main():
     print('What is the result of the expression?')
     i = 0
     while i < 3:
-        a = random.randint(0, 100)
-        b = random.randint(1, 100)
-        op = random.choice([" + ", " - ", " * "])
+        a = randint(0, 100)
+        b = randint(1, 100)
+        op = choice([" + ", " - ", " * "])
         question = str(a) + op + str(b)
         print(f'Question: {question}?')
         user_answer = int(input())
