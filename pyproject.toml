@@ -5,7 +5,6 @@ description = ""
 authors = ["Roman Tatarenkov"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
-flake8 = "^5.0.4"
 
 [tool.poetry.dev-dependencies]
 python = "^3.10"
