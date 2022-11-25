@@ -1,36 +1,11 @@
-from random import randint
+from brain_games.engine import engine
 
 
-from random import choice
-
-
-import prompt
+from brain_games.games.calc import subtext, gen_question
 
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name?')
-    print(f'Hello, {name}!')
-    print('What is the result of the expression?')
-    i = 0
-    while i < 3:
-        a = randint(0, 100)
-        b = randint(1, 100)
-        op = choice([" + ", " - ", " * "])
-        question = str(a) + op + str(b)
-        print(f'Question: {question}?')
-        user_answer = int(input())
-        print(f'Your answer: {user_answer}')
-        if user_answer == eval(question):
-            print("Correct!")
-            i += 1
-        else:
-            print(f"'{user_answer}' is wrong answer ;(."
-                  f" Correct answer is '{str(eval(question))}'."
-                  f"\nLet's try again, {name}!")
-            exit()
-    print(f'Congratulations, {name}!')
+    return engine(subtext, gen_question)
 
 
-if __name__ == '__main__':
-    main()
+main()
