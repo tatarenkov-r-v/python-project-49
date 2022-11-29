@@ -25,3 +25,4 @@ def engine(subtext, gen_question):
                   f"\nLet's try again, {name}!")
             exit()
     print(f'Congratulations, {name}!')
+    exit()
