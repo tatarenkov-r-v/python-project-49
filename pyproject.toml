@@ -6,7 +6,7 @@ authors = ["Roman Tatarenkov"]
 readme = "README.md"
 packages = [{include = "brain_games"}]
 
-[tool.poetry.dependencies]]
+[tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
 
