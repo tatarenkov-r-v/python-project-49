@@ -14,7 +14,7 @@ def engine(subtext, gen_question):
         que = list(questions)
         question = que[0]
         correct_answer = que[1]
-        print(f'Questions: {question}')
+        print(f'Question: {question}')
         user_answer = input('Your answer:')
         if user_answer == correct_answer:
             print('Correct!')
